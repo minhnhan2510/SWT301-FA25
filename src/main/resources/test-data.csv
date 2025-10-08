@@ -1,0 +1,11 @@
+email,password,expected
+user@example.com,Abc@1234,true
+test@domain.com,Password@1,true
+invalidemail.com,Abc@1234,false
+user@domain,true,false
+user@domaincom,123456,false
+name@gmail.com,Abcd!123,true
+wrong@domain,pass123,false
+hello@world.com,Hello@2024,true
+,@,false
+user@domain.com,abc,false
